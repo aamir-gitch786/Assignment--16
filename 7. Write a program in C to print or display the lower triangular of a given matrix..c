@@ -20,14 +20,9 @@ int main()
     {
         for(int j=0;j<3;j++)
         {
-            if(i>0 && j<=1)
+            if(j<=i)
             {
-                if((i+j==1 || i+j==2 || i+j==3) && (i!=j) )
-                {
-                    printf("%d ",a[i][j]);
-                }
-                else
-                printf(" ");
+            printf("%d ",a[i][j]);
             }
             else
             printf(" ");
