@@ -21,7 +21,7 @@ printf("transpose of matrix :\n");
     {
         for(j=0;j<3;j++)
         {
-            if(i<j)
+            if(i<j)//here you can use (j<i) it will works as same.
             {
                 tem=a[i][j];
                 a[i][j]=a[j][i];
