@@ -29,7 +29,7 @@ int main()
     }
     printf("Sum of diagonal is :%d",sum);
     
-
+//right diagonal means (\) and left diagonal means(/)
 
     return 0;
 }
