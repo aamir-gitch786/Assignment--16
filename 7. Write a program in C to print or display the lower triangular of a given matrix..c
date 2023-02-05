@@ -20,7 +20,7 @@ int main()
     {
         for(int j=0;j<3;j++)
         {
-            if(j<=i)
+            if(j>=i)
             {
             printf("%d ",a[i][j]);
             }
