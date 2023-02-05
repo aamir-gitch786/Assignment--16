@@ -21,7 +21,7 @@ int main()
     {
         for(int j=0;j<3;j++)
         {
-            if(j>=i)
+            if(i>=j)
             printf("%d",a[i][j]);
             else
             printf(" ");
